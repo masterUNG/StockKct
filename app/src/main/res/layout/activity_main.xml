@@ -7,21 +7,11 @@
     android:layout_height="match_parent"
     tools:context="kct.piyawat.stockkct.MainActivity">
 
-
-    <!--My View-->
-    <View
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/colorAccent"/>
-
-    <View
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/colorPrimary"/>
+    <!--Content of Fragment-->
+    <FrameLayout
+        android:id="@+id/contentOfFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>
